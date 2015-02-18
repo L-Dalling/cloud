@@ -1,0 +1,119 @@
+ <!doctype html>
+<html>
+<head>
+  <title>Cloud</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" href="css/foundation.css">
+  <script src="js/vendor/jquery.js"></script>
+
+  <script src="text/javascript" src="javascript.js"></script>
+  <script src="js/foundation/foundation.js"></script>
+   <script src="js/foundation/foundation.clearing.js"></script>
+  <link rel="stylesheet" type="text/css" href="cloud.css">
+  <script type="text/javascript" src="jQueryRotate.js"></script>
+  </head>
+
+<body>
+
+  <div class="cloudbk">
+  	
+ <nav class="top-bar" data-topbar role="navigation">
+    <ul class="title-area">
+      <li class="name">
+       <h1><a href="#">My Site</a></h1>
+      </li>
+     <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
+       <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
+    </ul>
+    <section class="top-bar-section">
+       <!-- Right Nav Section -->
+      <ul class="right">
+      <li class="has-dropdown">
+        <a href="#">Sign Up For Free</a>
+        <ul class="dropdown">
+          <li><a href="#">Login</a></li>
+          <li class="active"><a href="#">Active link in dropdown</a></li>
+        </ul>
+      </li>
+    </ul>
+       <!-- Left Nav Section -->
+      <ul class="right">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Service</a></li>
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Contact</a></li><br> 
+      </ul>
+    </section>
+   </nav>
+
+   <div class="row text-center">
+    <div class="small-12 columns">
+      <div class="h3">
+        <h3><strong>JOIN OUR NETWORK</strong></h3>
+      </div>
+     <div class="para">
+      <p> Nulla fermentum sit amet tellus sit amet, mattis consectetur nulla. Fusce ac urna sit amet<br> eros cursus congue Nullam sit amet rhoncus enim. Aenean in pellentesque lacuselit.</p>
+      <a href="#" class="button secondary">Secondary Button</a>
+       
+ 	</div>
+    </div>
+  </div>
+</div>
+
+<div class="row text-center">
+ <h3 class="h4nd">Why Companies Choose Us</h3>
+  
+    <div class="syn">
+    <div class="small-12 medium-6 large-6 columns">
+   
+      <img src="image/fuldesktop.png" id="image"  />
+      <h5>Syncs Across All Network</h5>
+      <p>Efficitur sollicitudin odio, Cras accumsan est<br>lorsed commodo nis accumsan est dolorsed.</p>
+  	</div>
+    <div class="small-12 medium-6 large-6 columns">
+      <img src="image/secure.png" id="myImage" />
+      <h5>Secure Communication</h5>
+      <p>Cras accumsan dolsed commodo mollis nibh,<br>rum commodo nibh efficitur sollicitudin odio.</p>
+    </div> 
+  </div>
+</div>	
+
+<div class="thrdcol text-center"> 
+ <h4>Fusce commodo velit non quam tincidunt vulputate aecenas commodo iaculis hendrerit.<br> Cras porta nibh id diam vulputate Vivamus sodales faucibus aliquam in tellus ante.</h4>
+ <img src="image/dk.png"/>
+</div>
+
+<div class="ftbk">
+  
+</div>
+  
+
+
+<script type="text/javascript">
+var rotation = function (){
+   $("#image").rotate({
+      angle:0, 
+      animateTo:360, 
+      callback: rotation
+   });
+}
+rotation();
+
+</script>
+
+<script>
+
+jQuery(function(){
+
+   $("#myImage").fadeIn();
+
+   $("#myImage").fadeOut();
+
+});
+
+</script>
+
+
+
+</body>
+</html>
